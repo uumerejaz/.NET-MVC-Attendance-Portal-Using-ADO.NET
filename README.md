@@ -16,4 +16,8 @@
 6)Jquery  
 7)JSON  
 8)AJAX  
-9)Stored Procedures  
+9)HTML  
+10)CSS  
+11)Stored Procedures  
+12)Visual Studio  
+13)MS SQL Server  
