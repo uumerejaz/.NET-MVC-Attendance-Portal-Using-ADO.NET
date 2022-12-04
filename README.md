@@ -1,5 +1,5 @@
 # .NET-MVC-Attendance-Portal-Using-ADO.NET
-Features:
+### Features:
 1.Custom Login and Signup Functionality.
 2.User can mark his current day attendance only and once user marked the checkout time, he can not change it.
 3.User cannot change or alter any previous attendance.
