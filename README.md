@@ -1,4 +1,4 @@
-# .NET-MVC-Attendance-Portal-Using-ADO.NET
+# .NET-MVC Attendance Portal Using ADO.NET
 
 ### Installation:  
 1)Open the SQL Server and Run the Script ( Database, Tables and Stored Procedures )  
@@ -26,3 +26,21 @@
 11)Stored Procedures  
 12)Visual Studio  
 13)MS SQL Server  
+
+# Details and Screenshots:  
+
+#### If the User Email already exists, system will not allow to create New account
+![Signup](https://user-images.githubusercontent.com/66524984/205482510-b9ffdba0-ed5c-40ba-9e73-cd3d67049d2d.PNG)
+
+
+#### If the Email or Password was wrong during login, System will show Alert
+![Signin](https://user-images.githubusercontent.com/66524984/205482520-cfecb46f-f29a-475d-823d-2e00dd0b85d6.PNG)
+
+
+
+
+
+
+
+
+
