@@ -1,7 +1,7 @@
 # .NET-MVC-Attendance-Portal-Using-ADO.NET
 
 ### Installation:  
-1.Open the SQL Server and Run the Script ( Database, Tables and Stored Procedures )  
+1)Open the SQL Server and Run the Script ( Database, Tables and Stored Procedures )  
 
 
 ### Features:
