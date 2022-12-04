@@ -2,6 +2,8 @@
 
 ### Installation:  
 1)Open the SQL Server and Run the Script ( Database, Tables and Stored Procedures )  
+2)Download and Open the Project in Visual Studio  
+3)Open Web.Config FIle, Go to Connection String and Write Your PC Name in the Server  
 
 
 ### Features:
