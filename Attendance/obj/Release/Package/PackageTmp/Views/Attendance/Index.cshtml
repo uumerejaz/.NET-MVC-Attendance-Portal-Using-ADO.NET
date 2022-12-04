@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="display:flex" >
+    <h2>Attendance</h2>
+    <h6 id="User" style="text-align: right; width: 88%; padding-top: 15px; font-style: italic;" ></h6>
+</div>
+<div style="width:100%">
+    <hr />
+    <button id="Logout" class="btn btn-danger" style="float:right">Log Out</button>
+</div>
+<button id="MarkAttendance" class="btn btn-dark">Mark Attendance</button>
+<button id="ShowAtt" style="display:none" class="btn btn-dark">Show My Attendance</button>
+<div id="MarkAttDiv" style="display:none">
+    <br />
+    <div style="display:flex">
+        <div class="col-md-6" style="float:left">
+            <button id="MarkCheckin" class="btn btn-primary">Mark in Time</button>
+            <button id="MarkCheckout" class="btn btn-primary">Mark Out Time</button>
+            <h3 id="AlreadyMarked" style="color:red;display:none">You Already Marked Today's Attendance !!!</h3>
+        </div>
+        <div id="ShortLeaveDiv" class="col-md-6" style="float: right; margin-left: 50px;display:none">
+            <label>Short Leave (Hr)</label>
+            <input id="ShortLeave" type="number" placeholder="Enter Short Leave in Hours" class="form-control" />
+            <button id="BtnShortLeave" style="margin-top:3px" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</div>
+<div id="AttDiv">
+    <br />
+    <table id="AttendanceTable" class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr style="font-weight:700">
+                <td>Date</td>
+                <td>Check In Time</td>
+                <td>Check Out Time</td>
+                <td>Short Leave(hrs)</td>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</div>
+
+<script src="~/Scripts/EmployeeAttendance.js"></script>

@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@*<script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>*@
+<script src="~/Scripts/Excel.js"></script>
+<div id="Main" style="display:none" >
+    <div style="display:flex">
+        <h2>Admin Panel</h2>
+        <h6 id="User" style="text-align: right; width: 85%; padding-top: 15px; font-style: italic;"></h6>
+    </div>
+    <div style="width:100%">
+        <hr />
+        <button id="Logout" class="btn btn-danger" style="float:right">Log Out</button>
+        <button id="Export" class="btn btn-primary" style="float:left">Export Data</button>
+    </div>
+    <div id="AttDiv">
+        <br />
+        <table id="AttendanceTable" class="table table-bordered" width="100%" cellspacing="0" style="margin-top: 30px;">
+            <thead>
+                <tr style="font-weight:700">
+                    <td>Emp ID</td>
+                    <td>Name</td>
+                    <td>Date</td>
+                    <td>Check In Time</td>
+                    <td>Check Out Time</td>
+                    <td>Short Leave(hrs)</td>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+<script src="~/Scripts/Admin.js"></script>
