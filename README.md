@@ -35,7 +35,7 @@
 #### If the Email or Password was wrong during login, System will show Alert
 ![Signin](https://user-images.githubusercontent.com/66524984/205482520-cfecb46f-f29a-475d-823d-2e00dd0b85d6.PNG)
 
-#### This is the Interface to show User's all previous Attendance with Data, Checkin/Checkout time and Short Leave. User Cannot Alter any previous Attendance once Entered
+#### This is the Interface to show User's all previous Attendance with Date, Checkin/Checkout time and Short Leave. User Cannot Alter any previous Attendance once Entered. On the Top Right Corner User's Email will be Shown and  below that is Logout Button. On clicking logout User will be logged out and returned to the Login Screen ( All Session Data will be cleared and If User try to press Back Button, User will not allowed to go back and will be stayed on Login Screen )
 ![Attendance](https://user-images.githubusercontent.com/66524984/205482524-c781077e-5c8a-48e9-b6e4-307af314c75b.PNG)
 
 #### After Marking the Checkin Time, Checkout Button and Mark Shortleave Input Field appears
@@ -44,11 +44,5 @@
 #### After Clicking the Checkout Button, User will not be allowed to change the Short Leave Field or change his Checkout time
 ![AlreadyMarked](https://user-images.githubusercontent.com/66524984/205482527-b4a559f9-9f68-4596-ab0b-f54df4c2f217.PNG)
 
-
-
-
-
-
-
-
-
+#### If we Login with the Admin Email ( Admin can be Created in the Employee Table by Changing the Usertype to 2 ), Same Login Screen will be Used for Admin Login. Admin can see Attendance Details of all the Employee's and Download the Excel File by Clicking on 'Export Data Button'
+![Admin](https://user-images.githubusercontent.com/66524984/205482530-962362e4-3e17-434b-9461-b4af6c50f795.PNG)
